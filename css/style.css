@@ -6,6 +6,7 @@
     --dark-blue: #161C3B;
     --red: #CD3D0F;
     --lavish-white: #D9DADC;
+    --light: #fff;
 }
 
 
@@ -14,10 +15,19 @@
 }
 
 
+.my-bg-light {
+    background-color: var(--light);
+}
+
+
 
 .my-container {
     width: 100%;
+    margin-top: 76px;
 }
+
+
+.my-nav {}
 
 
 .hero {
