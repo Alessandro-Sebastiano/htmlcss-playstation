@@ -21,9 +21,14 @@
 
 
 
-.my-container {
+.my-container-hero {
     width: 100%;
     margin-top: 76px;
+}
+
+
+.my-container {
+    width: 100%;
 }
 
 
