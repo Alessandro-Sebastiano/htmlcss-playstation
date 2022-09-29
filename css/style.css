@@ -20,6 +20,15 @@
 }
 
 
+.my-bg-grey {
+    background-color: var(--light-grey);
+}
+
+
+.my-bg-lavish {
+    background-color: var(--lavish-white);
+}
+
 
 .my-container-hero {
     width: 100%;
