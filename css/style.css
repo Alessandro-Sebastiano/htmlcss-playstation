@@ -12,3 +12,20 @@
 .my-bg-dark {
     background-color: var(--drak);
 }
+
+
+
+.my-container {
+    width: 100%;
+}
+
+
+.hero {
+    background-image: url(../img/jumbo-bg.png);
+    margin: 0;
+    padding: 0;
+    height: 80vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
