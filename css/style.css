@@ -1,0 +1,14 @@
+:root {
+    /* Color styles */
+    --drak: #1F1F1F;
+    --blue: #3A6DE7;
+    --light-grey: #BEBCBB;
+    --dark-blue: #161C3B;
+    --red: #CD3D0F;
+    --lavish-white: #D9DADC;
+}
+
+
+.my-bg-dark {
+    background-color: var(--drak);
+}
