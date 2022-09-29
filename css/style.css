@@ -27,8 +27,9 @@
 }
 
 
-.my-nav {}
-
+.my-nav {
+    z-index: 1000;
+}
 
 .hero {
     background-image: url(../img/jumbo-bg.png);
@@ -38,6 +39,12 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+
+.jumbo {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    height: auto;
 }
 
 
