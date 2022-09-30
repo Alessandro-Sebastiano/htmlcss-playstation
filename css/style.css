@@ -42,6 +42,11 @@
 
 
 
+.my-logo {
+    width: 95px;
+}
+
+
 .my-container-hero {
     width: 100%;
 }
@@ -59,20 +64,37 @@
 }
 
 
+
+.dropdown-menu {
+    height: 280px;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    background-color: #161C3B;
+}
+
+
 .hero {
     background-image: url(../img/jumbo-bg.png);
     margin: 0;
     padding: 0;
     padding-top: 250px;
-    background-position: center center;
+    background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 
+.my-btn-border:hover {
+    border: 3px solid var(--drak);
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+
 .jumbo {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
-    height: auto;
+    padding: 0;
 }
 
 
@@ -97,4 +119,23 @@
 .my-icon {
     width: 30px;
     height: 30px;
+}
+
+
+.my-small-icon {
+    width: 12px;
+    height: 12px;
+}
+
+
+.accessories {
+    cursor: pointer;
+    opacity: 0.5;
+    transition: opacity 0.6s ease;
+}
+
+
+.accessories:hover {
+    border-bottom: 1px solid var(--blue);
+    opacity: 1;
 }
