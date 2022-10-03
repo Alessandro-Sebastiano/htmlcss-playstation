@@ -65,13 +65,44 @@
 
 
 
-.dropdown-menu {
-    height: 280px;
-    width: 100vw;
-    top: 0;
-    left: 0;
-    background-color: #161C3B;
+.my-dropdown-menu {
+    width: 100%;
+    border-radius: 0;
+    border: 0;
 }
+
+
+.my-dropdown-menu[data-bs-popper] {
+    top: 76px;
+    left: 0;
+    margin: 0;
+}
+
+
+.my-menu-dot::before {
+    content: "\2022";
+    font-size: 26px;
+    text-align: center;
+    display: inline-block;
+    color: var(--blue);
+    position: relative;
+    top: 3px;
+}
+
+
+
+.my-menu-img {
+    width: 140px;
+    height: 140px;
+    cursor: pointer;
+}
+
+
+.my-menu-img:hover {
+    box-shadow: var(--light-grey) 1px 1px 4px;
+}
+
+
 
 
 .hero {
